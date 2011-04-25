@@ -1,4 +1,6 @@
 SampeAppMysql::Application.routes.draw do
+  resources :users
+
   get "vendors/list"
 
   get "vendors/contact"
