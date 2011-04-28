@@ -1,3 +1,3 @@
-==James first Rails TESTING project
+#James first Rails TESTING project
 
 test test
