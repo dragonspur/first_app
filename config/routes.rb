@@ -1,5 +1,8 @@
 SampeAppMysql::Application.routes.draw do
-  resources :users
+  devise_for :users
+
+  root :to => "pages#home"
+
 
   get "vendors/list"
 
