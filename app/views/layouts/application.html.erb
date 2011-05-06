@@ -9,10 +9,19 @@
   <%= stylesheet_link_tag 'blueprint/print', :media => 'print' %>
 </head>
 <body>
-
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
+	<div class="container showgrid">
+	 <p class="notice"><%= notice %></p>
+	 <p class="alert"><%= alert %></p>
+	
+	<div class="span-5"></div>
+	
+	<div class="span-12"></div>
 
 <%= yield %>
+	</div>
+
+	<div class="span-5 last"></div>
+
+	</div>
 
 </body></html>
